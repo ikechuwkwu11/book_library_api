@@ -5,7 +5,7 @@ import os
 
 app = Flask(__name__)
 
-app.config['SECRET_KEY'] = 'iyke'
+app.config['SECRET_KEY'] = ' '
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///book_library_api.db'
 db.init_app(app)
 
