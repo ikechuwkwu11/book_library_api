@@ -1,7 +1,7 @@
-#📚 Flask Book Library API
+# 📚 Flask Book Library API
 A simple, RESTful API built with Flask that enables users to register, log in, and manage a personal library of books. This API supports full CRUD operations for books and uses session-based authentication via Flask-Login (no JWT required). Designed for simplicity, extensibility, and educational use.
 
-##🚀 Features
+## 🚀 Features
 - Authentication
 - User registration and login
 - Secure, session-based login with Flask-Login (no JWTs)
@@ -12,7 +12,7 @@ A simple, RESTful API built with Flask that enables users to register, log in, a
 - Delete a book
 - Fetch all books
 
-##🧪 Developer Extras
+## 🧪 Developer Extras
 - Optional auto-seeding logic for demo book data
 
 ## 🛠 Tech Stack
@@ -23,7 +23,7 @@ A simple, RESTful API built with Flask that enables users to register, log in, a
 - ORM	SQLAlchemy
 - Auth	Flask-Login
 
-## 🔍 Example API Endpoints
+##  🔍 Example API Endpoints
 - Method |	Endpoint |	Description
 - POST	  /register	      Register a new user
 - POST	  /login	        Log in a user
@@ -34,7 +34,7 @@ A simple, RESTful API built with Flask that enables users to register, log in, a
 
 - All book routes require an authenticated session.
 
-##📌 Notes
+## 📌 Notes
 - Admin privileges are not required; users can manage their own sessions.
 - No frontend is included — this is an API-only project.
 - Can be extended easily with JWTs, user roles, or a frontend in React/Vue.
