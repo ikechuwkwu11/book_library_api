@@ -16,21 +16,24 @@ A simple, RESTful API built with Flask that enables users to register, log in, a
 - Optional auto-seeding logic for demo book data
 
 ## 🛠 Tech Stack
-- Layer	Technology
-- Language	Python
-- Framework	Flask
-- Database	SQLite
-- ORM	SQLAlchemy
-- Auth	Flask-Login
+| Layer     | Technology  |
+| --------- | ----------- |
+| Language  | Python      |
+| Framework | Flask       |
+| Database  | SQLite      |
+| ORM       | SQLAlchemy  |
+| Auth      | Flask-Login |
 
 ##  🔍 Example API Endpoints
-- Method |	Endpoint |	Description
-- POST	  /register	      Register a new user
-- POST	  /login	        Log in a user
-- GET	    /books	          Fetch all books
-- POST  	/books	        Add a new book
-- PUT    	/books/<book_id>	Edit an existing book
-- DELETE	/books/<book_id>	Delete a book
+| Method | Endpoint           | Description         |
+| ------ | ------------------ | ------------------- |
+| POST   | `/register`        | Register a new user |
+| POST   | `/login`           | Log in a user       |
+| GET    | `/books`           | Get all books       |
+| POST   | `/books`           | Add a new book      |
+| PUT    | `/books/<book_id>` | Edit a book         |
+| DELETE | `/books/<book_id>` | Delete a book       |
+
 
 - All book routes require an authenticated session.
 
